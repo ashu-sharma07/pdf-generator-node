@@ -1,0 +1,29 @@
+{
+  "name": "pdf-generator-node",
+  "version": "1.0.0",
+  "description": "Generating PDF with HTML and dynamic data in Nodejs",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashu-sharma07/pdf-generator-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashu-sharma07/pdf-generator-node/issues"
+  },
+  "homepage": "https://github.com/ashu-sharma07/pdf-generator-node#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1270.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "fs-extra": "^11.1.0",
+    "nanoid": "^4.0.0",
+    "puppeteer": "^19.4.0"
+  }
+}
